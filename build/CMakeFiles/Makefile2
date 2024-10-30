@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/edoardo/Desktop/FirstEngine/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/VulkanTest.dir/all
+all: CMakeFiles/FirstEngine.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/VulkanTest.dir/clean
+clean: CMakeFiles/FirstEngine.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/VulkanTest.dir
+# Target rules for target CMakeFiles/FirstEngine.dir
 
 # All Build rule for target.
-CMakeFiles/VulkanTest.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VulkanTest.dir/build.make CMakeFiles/VulkanTest.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VulkanTest.dir/build.make CMakeFiles/VulkanTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edoardo/Desktop/FirstEngine/build/CMakeFiles --progress-num=1,2,3,4 "Built target VulkanTest"
-.PHONY : CMakeFiles/VulkanTest.dir/all
+CMakeFiles/FirstEngine.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/edoardo/Desktop/FirstEngine/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target FirstEngine"
+.PHONY : CMakeFiles/FirstEngine.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/VulkanTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/edoardo/Desktop/FirstEngine/build/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/VulkanTest.dir/all
+CMakeFiles/FirstEngine.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/edoardo/Desktop/FirstEngine/build/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/FirstEngine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/edoardo/Desktop/FirstEngine/build/CMakeFiles 0
-.PHONY : CMakeFiles/VulkanTest.dir/rule
+.PHONY : CMakeFiles/FirstEngine.dir/rule
 
 # Convenience name for target.
-VulkanTest: CMakeFiles/VulkanTest.dir/rule
-.PHONY : VulkanTest
+FirstEngine: CMakeFiles/FirstEngine.dir/rule
+.PHONY : FirstEngine
 
 # clean rule for target.
-CMakeFiles/VulkanTest.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VulkanTest.dir/build.make CMakeFiles/VulkanTest.dir/clean
-.PHONY : CMakeFiles/VulkanTest.dir/clean
+CMakeFiles/FirstEngine.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/clean
+.PHONY : CMakeFiles/FirstEngine.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

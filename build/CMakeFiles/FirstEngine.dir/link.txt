@@ -1,1 +1,1 @@
-/usr/bin/c++  -O2 CMakeFiles/FirstEngine.dir/main.cpp.o -o FirstEngine  -lglfw -lvulkan -ldl -lpthread -lX11 -lXxf86vm -lXrandr -lXi 
+/usr/bin/c++  -O2 CMakeFiles/FirstEngine.dir/main.cpp.o CMakeFiles/FirstEngine.dir/FirstGame/FirstGame.cpp.o CMakeFiles/FirstEngine.dir/Window/Window.cpp.o CMakeFiles/FirstEngine.dir/Pipeline/Pipeline.cpp.o -o FirstEngine  -lglfw -lvulkan -ldl -lpthread -lX11 -lXxf86vm -lXrandr -lXi 

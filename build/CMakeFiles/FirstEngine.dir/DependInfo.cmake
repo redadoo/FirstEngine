@@ -8,6 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/edoardo/Desktop/FirstEngine/FirstGame/FirstGame.cpp" "CMakeFiles/FirstEngine.dir/FirstGame/FirstGame.cpp.o" "gcc" "CMakeFiles/FirstEngine.dir/FirstGame/FirstGame.cpp.o.d"
+  "/home/edoardo/Desktop/FirstEngine/Pipeline/Pipeline.cpp" "CMakeFiles/FirstEngine.dir/Pipeline/Pipeline.cpp.o" "gcc" "CMakeFiles/FirstEngine.dir/Pipeline/Pipeline.cpp.o.d"
+  "/home/edoardo/Desktop/FirstEngine/Window/Window.cpp" "CMakeFiles/FirstEngine.dir/Window/Window.cpp.o" "gcc" "CMakeFiles/FirstEngine.dir/Window/Window.cpp.o.d"
   "/home/edoardo/Desktop/FirstEngine/main.cpp" "CMakeFiles/FirstEngine.dir/main.cpp.o" "gcc" "CMakeFiles/FirstEngine.dir/main.cpp.o.d"
   )
 

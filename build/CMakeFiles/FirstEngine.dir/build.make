@@ -83,17 +83,65 @@ CMakeFiles/FirstEngine.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FirstEngine.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edoardo/Desktop/FirstEngine/main.cpp -o CMakeFiles/FirstEngine.dir/main.cpp.s
 
+CMakeFiles/FirstEngine.dir/FirstGame/FirstGame.cpp.o: CMakeFiles/FirstEngine.dir/flags.make
+CMakeFiles/FirstEngine.dir/FirstGame/FirstGame.cpp.o: ../FirstGame/FirstGame.cpp
+CMakeFiles/FirstEngine.dir/FirstGame/FirstGame.cpp.o: CMakeFiles/FirstEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edoardo/Desktop/FirstEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FirstEngine.dir/FirstGame/FirstGame.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FirstEngine.dir/FirstGame/FirstGame.cpp.o -MF CMakeFiles/FirstEngine.dir/FirstGame/FirstGame.cpp.o.d -o CMakeFiles/FirstEngine.dir/FirstGame/FirstGame.cpp.o -c /home/edoardo/Desktop/FirstEngine/FirstGame/FirstGame.cpp
+
+CMakeFiles/FirstEngine.dir/FirstGame/FirstGame.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FirstEngine.dir/FirstGame/FirstGame.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edoardo/Desktop/FirstEngine/FirstGame/FirstGame.cpp > CMakeFiles/FirstEngine.dir/FirstGame/FirstGame.cpp.i
+
+CMakeFiles/FirstEngine.dir/FirstGame/FirstGame.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FirstEngine.dir/FirstGame/FirstGame.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edoardo/Desktop/FirstEngine/FirstGame/FirstGame.cpp -o CMakeFiles/FirstEngine.dir/FirstGame/FirstGame.cpp.s
+
+CMakeFiles/FirstEngine.dir/Window/Window.cpp.o: CMakeFiles/FirstEngine.dir/flags.make
+CMakeFiles/FirstEngine.dir/Window/Window.cpp.o: ../Window/Window.cpp
+CMakeFiles/FirstEngine.dir/Window/Window.cpp.o: CMakeFiles/FirstEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edoardo/Desktop/FirstEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FirstEngine.dir/Window/Window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FirstEngine.dir/Window/Window.cpp.o -MF CMakeFiles/FirstEngine.dir/Window/Window.cpp.o.d -o CMakeFiles/FirstEngine.dir/Window/Window.cpp.o -c /home/edoardo/Desktop/FirstEngine/Window/Window.cpp
+
+CMakeFiles/FirstEngine.dir/Window/Window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FirstEngine.dir/Window/Window.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edoardo/Desktop/FirstEngine/Window/Window.cpp > CMakeFiles/FirstEngine.dir/Window/Window.cpp.i
+
+CMakeFiles/FirstEngine.dir/Window/Window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FirstEngine.dir/Window/Window.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edoardo/Desktop/FirstEngine/Window/Window.cpp -o CMakeFiles/FirstEngine.dir/Window/Window.cpp.s
+
+CMakeFiles/FirstEngine.dir/Pipeline/Pipeline.cpp.o: CMakeFiles/FirstEngine.dir/flags.make
+CMakeFiles/FirstEngine.dir/Pipeline/Pipeline.cpp.o: ../Pipeline/Pipeline.cpp
+CMakeFiles/FirstEngine.dir/Pipeline/Pipeline.cpp.o: CMakeFiles/FirstEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edoardo/Desktop/FirstEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FirstEngine.dir/Pipeline/Pipeline.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FirstEngine.dir/Pipeline/Pipeline.cpp.o -MF CMakeFiles/FirstEngine.dir/Pipeline/Pipeline.cpp.o.d -o CMakeFiles/FirstEngine.dir/Pipeline/Pipeline.cpp.o -c /home/edoardo/Desktop/FirstEngine/Pipeline/Pipeline.cpp
+
+CMakeFiles/FirstEngine.dir/Pipeline/Pipeline.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FirstEngine.dir/Pipeline/Pipeline.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edoardo/Desktop/FirstEngine/Pipeline/Pipeline.cpp > CMakeFiles/FirstEngine.dir/Pipeline/Pipeline.cpp.i
+
+CMakeFiles/FirstEngine.dir/Pipeline/Pipeline.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FirstEngine.dir/Pipeline/Pipeline.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edoardo/Desktop/FirstEngine/Pipeline/Pipeline.cpp -o CMakeFiles/FirstEngine.dir/Pipeline/Pipeline.cpp.s
+
 # Object files for target FirstEngine
 FirstEngine_OBJECTS = \
-"CMakeFiles/FirstEngine.dir/main.cpp.o"
+"CMakeFiles/FirstEngine.dir/main.cpp.o" \
+"CMakeFiles/FirstEngine.dir/FirstGame/FirstGame.cpp.o" \
+"CMakeFiles/FirstEngine.dir/Window/Window.cpp.o" \
+"CMakeFiles/FirstEngine.dir/Pipeline/Pipeline.cpp.o"
 
 # External object files for target FirstEngine
 FirstEngine_EXTERNAL_OBJECTS =
 
 FirstEngine: CMakeFiles/FirstEngine.dir/main.cpp.o
+FirstEngine: CMakeFiles/FirstEngine.dir/FirstGame/FirstGame.cpp.o
+FirstEngine: CMakeFiles/FirstEngine.dir/Window/Window.cpp.o
+FirstEngine: CMakeFiles/FirstEngine.dir/Pipeline/Pipeline.cpp.o
 FirstEngine: CMakeFiles/FirstEngine.dir/build.make
 FirstEngine: CMakeFiles/FirstEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/edoardo/Desktop/FirstEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable FirstEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/edoardo/Desktop/FirstEngine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable FirstEngine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FirstEngine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

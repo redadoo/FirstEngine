@@ -1,4 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/FirstEngine.dir/FirstGame/FirstGame.cpp.o"
+  "CMakeFiles/FirstEngine.dir/FirstGame/FirstGame.cpp.o.d"
+  "CMakeFiles/FirstEngine.dir/Pipeline/Pipeline.cpp.o"
+  "CMakeFiles/FirstEngine.dir/Pipeline/Pipeline.cpp.o.d"
+  "CMakeFiles/FirstEngine.dir/Window/Window.cpp.o"
+  "CMakeFiles/FirstEngine.dir/Window/Window.cpp.o.d"
   "CMakeFiles/FirstEngine.dir/main.cpp.o"
   "CMakeFiles/FirstEngine.dir/main.cpp.o.d"
   "FirstEngine"

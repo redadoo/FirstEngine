@@ -16,16 +16,18 @@ set(SOURCES
     main.cpp
     FirstGame/FirstGame.cpp
     Window/Window.cpp
+    Pipeline/Pipeline.cpp
 )
 
 # Include directories
 include_directories(
     ${CMAKE_SOURCE_DIR}/FirstGame
     ${CMAKE_SOURCE_DIR}/Window
+    ${CMAKE_SOURCE_DIR}/Pipeline
 )
 
 # Add the executable
-add_executable(VulkanTest ${SOURCES})
+add_executable(FirstEngine ${SOURCES})
 
 # Link necessary libraries
-target_link_libraries(VulkanTest glfw vulkan dl pthread X11 Xxf86vm Xrandr Xi)
+target_link_libraries(FirstEngine glfw vulkan dl pthread X11 Xxf86vm Xrandr Xi)

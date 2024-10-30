@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named VulkanTest
+# Target rules for targets named FirstEngine
 
 # Build rule for target.
-VulkanTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 VulkanTest
-.PHONY : VulkanTest
+FirstEngine: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FirstEngine
+.PHONY : FirstEngine
 
 # fast build rule for target.
-VulkanTest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VulkanTest.dir/build.make CMakeFiles/VulkanTest.dir/build
-.PHONY : VulkanTest/fast
+FirstEngine/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/build
+.PHONY : FirstEngine/fast
 
 FirstGame/FirstGame.o: FirstGame/FirstGame.cpp.o
 .PHONY : FirstGame/FirstGame.o
 
 # target to build an object file
 FirstGame/FirstGame.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VulkanTest.dir/build.make CMakeFiles/VulkanTest.dir/FirstGame/FirstGame.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/FirstGame/FirstGame.cpp.o
 .PHONY : FirstGame/FirstGame.cpp.o
 
 FirstGame/FirstGame.i: FirstGame/FirstGame.cpp.i
@@ -142,7 +142,7 @@ FirstGame/FirstGame.i: FirstGame/FirstGame.cpp.i
 
 # target to preprocess a source file
 FirstGame/FirstGame.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VulkanTest.dir/build.make CMakeFiles/VulkanTest.dir/FirstGame/FirstGame.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/FirstGame/FirstGame.cpp.i
 .PHONY : FirstGame/FirstGame.cpp.i
 
 FirstGame/FirstGame.s: FirstGame/FirstGame.cpp.s
@@ -150,15 +150,39 @@ FirstGame/FirstGame.s: FirstGame/FirstGame.cpp.s
 
 # target to generate assembly for a file
 FirstGame/FirstGame.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VulkanTest.dir/build.make CMakeFiles/VulkanTest.dir/FirstGame/FirstGame.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/FirstGame/FirstGame.cpp.s
 .PHONY : FirstGame/FirstGame.cpp.s
+
+Pipeline/Pipeline.o: Pipeline/Pipeline.cpp.o
+.PHONY : Pipeline/Pipeline.o
+
+# target to build an object file
+Pipeline/Pipeline.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/Pipeline/Pipeline.cpp.o
+.PHONY : Pipeline/Pipeline.cpp.o
+
+Pipeline/Pipeline.i: Pipeline/Pipeline.cpp.i
+.PHONY : Pipeline/Pipeline.i
+
+# target to preprocess a source file
+Pipeline/Pipeline.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/Pipeline/Pipeline.cpp.i
+.PHONY : Pipeline/Pipeline.cpp.i
+
+Pipeline/Pipeline.s: Pipeline/Pipeline.cpp.s
+.PHONY : Pipeline/Pipeline.s
+
+# target to generate assembly for a file
+Pipeline/Pipeline.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/Pipeline/Pipeline.cpp.s
+.PHONY : Pipeline/Pipeline.cpp.s
 
 Window/Window.o: Window/Window.cpp.o
 .PHONY : Window/Window.o
 
 # target to build an object file
 Window/Window.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VulkanTest.dir/build.make CMakeFiles/VulkanTest.dir/Window/Window.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/Window/Window.cpp.o
 .PHONY : Window/Window.cpp.o
 
 Window/Window.i: Window/Window.cpp.i
@@ -166,7 +190,7 @@ Window/Window.i: Window/Window.cpp.i
 
 # target to preprocess a source file
 Window/Window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VulkanTest.dir/build.make CMakeFiles/VulkanTest.dir/Window/Window.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/Window/Window.cpp.i
 .PHONY : Window/Window.cpp.i
 
 Window/Window.s: Window/Window.cpp.s
@@ -174,7 +198,7 @@ Window/Window.s: Window/Window.cpp.s
 
 # target to generate assembly for a file
 Window/Window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VulkanTest.dir/build.make CMakeFiles/VulkanTest.dir/Window/Window.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/Window/Window.cpp.s
 .PHONY : Window/Window.cpp.s
 
 main.o: main.cpp.o
@@ -182,7 +206,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VulkanTest.dir/build.make CMakeFiles/VulkanTest.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -190,7 +214,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VulkanTest.dir/build.make CMakeFiles/VulkanTest.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -198,7 +222,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/VulkanTest.dir/build.make CMakeFiles/VulkanTest.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -209,10 +233,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... VulkanTest"
+	@echo "... FirstEngine"
 	@echo "... FirstGame/FirstGame.o"
 	@echo "... FirstGame/FirstGame.i"
 	@echo "... FirstGame/FirstGame.s"
+	@echo "... Pipeline/Pipeline.o"
+	@echo "... Pipeline/Pipeline.i"
+	@echo "... Pipeline/Pipeline.s"
 	@echo "... Window/Window.o"
 	@echo "... Window/Window.i"
 	@echo "... Window/Window.s"
