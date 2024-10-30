@@ -1,0 +1,1 @@
+/usr/bin/c++  -O2 CMakeFiles/FirstEngine.dir/main.cpp.o -o FirstEngine  -lglfw -lvulkan -ldl -lpthread -lX11 -lXxf86vm -lXrandr -lXi 

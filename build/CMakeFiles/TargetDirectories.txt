@@ -1,0 +1,3 @@
+/home/edoardo/Desktop/FirstEngine/build/CMakeFiles/VulkanTest.dir
+/home/edoardo/Desktop/FirstEngine/build/CMakeFiles/edit_cache.dir
+/home/edoardo/Desktop/FirstEngine/build/CMakeFiles/rebuild_cache.dir
