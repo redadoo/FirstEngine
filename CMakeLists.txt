@@ -13,17 +13,19 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O2")
 
 # Define source files
 set(SOURCES
-    main.cpp
-    FirstGame/FirstGame.cpp
-    Window/Window.cpp
-    Pipeline/Pipeline.cpp
+    src/main.cpp
+    src/FirstGame/FirstGame.cpp
+    src/Window/Window.cpp
+    src/Pipeline/Pipeline.cpp
+    src/Device/Device.cpp
 )
 
 # Include directories
 include_directories(
-    ${CMAKE_SOURCE_DIR}/FirstGame
-    ${CMAKE_SOURCE_DIR}/Window
-    ${CMAKE_SOURCE_DIR}/Pipeline
+    ${CMAKE_SOURCE_DIR}/src/FirstGame
+    ${CMAKE_SOURCE_DIR}/src/Window
+    ${CMAKE_SOURCE_DIR}/src/Pipeline
+    ${CMAKE_SOURCE_DIR}/src/Device
 )
 
 # Add the executable

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/edoardo/Desktop/FirstEngine/FirstGame -I/home/edoardo/Desktop/FirstEngine/Window -I/home/edoardo/Desktop/FirstEngine/Pipeline
+CXX_INCLUDES = -I/home/edoardo/Desktop/FirstEngine/src/FirstGame -I/home/edoardo/Desktop/FirstEngine/src/Window -I/home/edoardo/Desktop/FirstEngine/src/Pipeline -I/home/edoardo/Desktop/FirstEngine/src/Device
 
 CXX_FLAGS =  -O2 -std=gnu++17
 

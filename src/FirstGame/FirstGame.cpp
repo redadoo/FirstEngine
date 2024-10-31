@@ -4,7 +4,7 @@ namespace Engine
 {
 	void FirstGame::run() 
 	{
-		while (!lveWindow.shouldClose()) 
+		while (!window.shouldClose()) 
 		{
 			glfwPollEvents();
 		}

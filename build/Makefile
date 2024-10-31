@@ -129,101 +129,125 @@ FirstEngine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/build
 .PHONY : FirstEngine/fast
 
-FirstGame/FirstGame.o: FirstGame/FirstGame.cpp.o
-.PHONY : FirstGame/FirstGame.o
+src/Device/Device.o: src/Device/Device.cpp.o
+.PHONY : src/Device/Device.o
 
 # target to build an object file
-FirstGame/FirstGame.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/FirstGame/FirstGame.cpp.o
-.PHONY : FirstGame/FirstGame.cpp.o
+src/Device/Device.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/src/Device/Device.cpp.o
+.PHONY : src/Device/Device.cpp.o
 
-FirstGame/FirstGame.i: FirstGame/FirstGame.cpp.i
-.PHONY : FirstGame/FirstGame.i
+src/Device/Device.i: src/Device/Device.cpp.i
+.PHONY : src/Device/Device.i
 
 # target to preprocess a source file
-FirstGame/FirstGame.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/FirstGame/FirstGame.cpp.i
-.PHONY : FirstGame/FirstGame.cpp.i
+src/Device/Device.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/src/Device/Device.cpp.i
+.PHONY : src/Device/Device.cpp.i
 
-FirstGame/FirstGame.s: FirstGame/FirstGame.cpp.s
-.PHONY : FirstGame/FirstGame.s
+src/Device/Device.s: src/Device/Device.cpp.s
+.PHONY : src/Device/Device.s
 
 # target to generate assembly for a file
-FirstGame/FirstGame.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/FirstGame/FirstGame.cpp.s
-.PHONY : FirstGame/FirstGame.cpp.s
+src/Device/Device.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/src/Device/Device.cpp.s
+.PHONY : src/Device/Device.cpp.s
 
-Pipeline/Pipeline.o: Pipeline/Pipeline.cpp.o
-.PHONY : Pipeline/Pipeline.o
+src/FirstGame/FirstGame.o: src/FirstGame/FirstGame.cpp.o
+.PHONY : src/FirstGame/FirstGame.o
 
 # target to build an object file
-Pipeline/Pipeline.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/Pipeline/Pipeline.cpp.o
-.PHONY : Pipeline/Pipeline.cpp.o
+src/FirstGame/FirstGame.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/src/FirstGame/FirstGame.cpp.o
+.PHONY : src/FirstGame/FirstGame.cpp.o
 
-Pipeline/Pipeline.i: Pipeline/Pipeline.cpp.i
-.PHONY : Pipeline/Pipeline.i
+src/FirstGame/FirstGame.i: src/FirstGame/FirstGame.cpp.i
+.PHONY : src/FirstGame/FirstGame.i
 
 # target to preprocess a source file
-Pipeline/Pipeline.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/Pipeline/Pipeline.cpp.i
-.PHONY : Pipeline/Pipeline.cpp.i
+src/FirstGame/FirstGame.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/src/FirstGame/FirstGame.cpp.i
+.PHONY : src/FirstGame/FirstGame.cpp.i
 
-Pipeline/Pipeline.s: Pipeline/Pipeline.cpp.s
-.PHONY : Pipeline/Pipeline.s
+src/FirstGame/FirstGame.s: src/FirstGame/FirstGame.cpp.s
+.PHONY : src/FirstGame/FirstGame.s
 
 # target to generate assembly for a file
-Pipeline/Pipeline.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/Pipeline/Pipeline.cpp.s
-.PHONY : Pipeline/Pipeline.cpp.s
+src/FirstGame/FirstGame.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/src/FirstGame/FirstGame.cpp.s
+.PHONY : src/FirstGame/FirstGame.cpp.s
 
-Window/Window.o: Window/Window.cpp.o
-.PHONY : Window/Window.o
+src/Pipeline/Pipeline.o: src/Pipeline/Pipeline.cpp.o
+.PHONY : src/Pipeline/Pipeline.o
 
 # target to build an object file
-Window/Window.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/Window/Window.cpp.o
-.PHONY : Window/Window.cpp.o
+src/Pipeline/Pipeline.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/src/Pipeline/Pipeline.cpp.o
+.PHONY : src/Pipeline/Pipeline.cpp.o
 
-Window/Window.i: Window/Window.cpp.i
-.PHONY : Window/Window.i
+src/Pipeline/Pipeline.i: src/Pipeline/Pipeline.cpp.i
+.PHONY : src/Pipeline/Pipeline.i
 
 # target to preprocess a source file
-Window/Window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/Window/Window.cpp.i
-.PHONY : Window/Window.cpp.i
+src/Pipeline/Pipeline.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/src/Pipeline/Pipeline.cpp.i
+.PHONY : src/Pipeline/Pipeline.cpp.i
 
-Window/Window.s: Window/Window.cpp.s
-.PHONY : Window/Window.s
+src/Pipeline/Pipeline.s: src/Pipeline/Pipeline.cpp.s
+.PHONY : src/Pipeline/Pipeline.s
 
 # target to generate assembly for a file
-Window/Window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/Window/Window.cpp.s
-.PHONY : Window/Window.cpp.s
+src/Pipeline/Pipeline.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/src/Pipeline/Pipeline.cpp.s
+.PHONY : src/Pipeline/Pipeline.cpp.s
 
-main.o: main.cpp.o
-.PHONY : main.o
+src/Window/Window.o: src/Window/Window.cpp.o
+.PHONY : src/Window/Window.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/Window/Window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/src/Window/Window.cpp.o
+.PHONY : src/Window/Window.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/Window/Window.i: src/Window/Window.cpp.i
+.PHONY : src/Window/Window.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/Window/Window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/src/Window/Window.cpp.i
+.PHONY : src/Window/Window.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/Window/Window.s: src/Window/Window.cpp.s
+.PHONY : src/Window/Window.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/Window/Window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/src/Window/Window.cpp.s
+.PHONY : src/Window/Window.cpp.s
+
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FirstEngine.dir/build.make CMakeFiles/FirstEngine.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -234,18 +258,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... FirstEngine"
-	@echo "... FirstGame/FirstGame.o"
-	@echo "... FirstGame/FirstGame.i"
-	@echo "... FirstGame/FirstGame.s"
-	@echo "... Pipeline/Pipeline.o"
-	@echo "... Pipeline/Pipeline.i"
-	@echo "... Pipeline/Pipeline.s"
-	@echo "... Window/Window.o"
-	@echo "... Window/Window.i"
-	@echo "... Window/Window.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/Device/Device.o"
+	@echo "... src/Device/Device.i"
+	@echo "... src/Device/Device.s"
+	@echo "... src/FirstGame/FirstGame.o"
+	@echo "... src/FirstGame/FirstGame.i"
+	@echo "... src/FirstGame/FirstGame.s"
+	@echo "... src/Pipeline/Pipeline.o"
+	@echo "... src/Pipeline/Pipeline.i"
+	@echo "... src/Pipeline/Pipeline.s"
+	@echo "... src/Window/Window.o"
+	@echo "... src/Window/Window.i"
+	@echo "... src/Window/Window.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

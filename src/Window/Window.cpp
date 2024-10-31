@@ -1,5 +1,7 @@
 #include "Window.hpp"
 
+#include <stdexcept>
+
 namespace Engine 
 {
     Window::Window(int w, int h, std::string name) : width{w}, height{h}, windowName{name} 
@@ -12,7 +14,13 @@ namespace Engine
         glfwTerminate();
     }
 
-    void Window::initWindow() 
+    void Window::CreateWindowSurface(VkInstance instance, VkSurfaceKHR *surface)
+    {
+        if (glfwCreateWindowSurface(instance, window, nullptr, surface) != VK_SUCCESS)
+            throw std::runtime_error("failed to create window surface");
+    }
+
+    void Window::initWindow()
     {
         glfwInit();
         glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);

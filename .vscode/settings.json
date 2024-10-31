@@ -46,6 +46,8 @@
         "streambuf": "cpp",
         "cinttypes": "cpp",
         "typeinfo": "cpp",
-        "fstream": "cpp"
+        "fstream": "cpp",
+        "set": "cpp",
+        "unordered_set": "cpp"
     }
 }

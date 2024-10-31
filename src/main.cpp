@@ -1,10 +1,11 @@
-#include "FirstGame.hpp"
-// std
+#include <FirstGame.hpp>
+
 #include <cstdlib>
 #include <iostream>
 #include <stdexcept>
 
-int main() {
+int main() 
+{
   Engine::FirstGame app{};
 
   try {
